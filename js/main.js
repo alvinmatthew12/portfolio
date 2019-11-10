@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Alvin Matthew Pratama.", "a Programmer.", "also a student."],
+      strings: ["Hello, I'm Alvin Matthew Pratama.", "Welcome to My Collection"],
       typeSpeed: 100,
       loop: true,
     });
@@ -160,9 +160,9 @@ $(window).load(function(){
 //  Hide and Show
 // ========================================================================= //
 
-document.getElementById("stdportal").style.display = "none";
+document.getElementById("portfolioDetail").style.display = "none";
 
-function showStdPortal() {
-  var x = document.getElementById("stdportal");
+function portfolioDetail() {
+  var x = document.getElementById("portfolioDetail");
   x.style.display = "block";
 }

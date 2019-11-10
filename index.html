@@ -73,7 +73,7 @@
 
     <div class="container">
       <div class="header-content">
-        <h1>I'm <span class="typed"></span></h1>
+        <h1><span class="typed"></span></h1>
         <p>Programmer, Student</p>
 
         <ul class="list-unstyled list-social">
@@ -102,7 +102,7 @@
         <div class="col-lg-7">
           <div class="about-descr">
 
-            <p class="p-heading">Hello, I'm a programmer that love to explore and learn something new. </p>
+            <p class="p-heading">As a programmer and student I love to explore and learn something new. </p>
             <p class="separator"></p>
 
             <p class="p-heading">My Achievements</p>
@@ -276,8 +276,8 @@
 
             <ul class="nav list-unstyled" id="portfolio-flters">
               <li class="filter filter-active" data-filter=".all">all</li>
-              <li class="filter" data-filter=".std-portal" onclick="showStdPortal()">Student Portal App</li>
-              <li class="filter" data-filter=".lct-portal">Lecturer Portal App</li>
+              <li class="filter" data-filter=".std-portal" onclick="portfolioDetail()">Student Portal App</li>
+              <li class="filter" data-filter=".lct-portal" onclick="portfolioDetail()">Lecturer Portal App</li>
               <li class="filter" data-filter=".uikits">ui kits</li>
               <li class="filter" data-filter=".webdesign">web design</li>
               <li class="filter" data-filter=".photography">photography</li>
@@ -287,39 +287,16 @@
 
           <div class="portfolio-container">
 
-            <!-- Student Portal App -->
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all std-portal">
               <a class="popup-img" href="images/portfolio/portal-mhs/portal-mhs.jpg">
                 <img src="images/portfolio/portal-mhs/portal-mhs.jpg" alt="img">
               </a>
             </div>
-            
-            <div id="stdportal">
 
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail std-portal">
-                <a class="popup-img" href="images/portfolio/portal-mhs/desc.jpg">
-                  <img src="images/portfolio/portal-mhs/desc.jpg" alt="img">
-                </a>
-              </div>
-              
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail std-portal">
-                <a class="popup-img" href="images/portfolio/portal-mhs/pages.jpg">
-                  <img src="images/portfolio/portal-mhs/pages.jpg" alt="img">
-                </a>
-              </div>
-                          
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail std-portal">
-                <a class="popup-img" href="images/portfolio/portal-mhs/pages1.jpg">
-                  <img src="images/portfolio/portal-mhs/pages1.jpg" alt="img">
-                </a>
-              </div>   
 
-            </div>
-            <!-- Student Portal App -->
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
-              <a class="popup-img" href="images/portfolio/2.jpg">
-                <img src="images/portfolio/2.jpg"  alt="img">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all lct-portal">
+              <a class="popup-img" href="images/portfolio/portal-dsn/portal-dsn.jpg">
+                <img src="images/portfolio/portal-dsn/portal-dsn.jpg"  alt="img">
               </a>
             </div>
 
@@ -345,6 +322,50 @@
               <a class="popup-img" href="images/portfolio/6.jpg">
                 <img src="images/portfolio/6.jpg" alt="img">
               </a>
+            </div>
+            
+            <div id="portfolioDetail">
+
+              <!-- Student Portal App -->
+              <div class="col-lg-4 col-md-6 portfolio-thumbnail std-portal">
+                <a class="popup-img" href="images/portfolio/portal-mhs/desc.jpg">
+                  <img src="images/portfolio/portal-mhs/desc.jpg" alt="img">
+                </a>
+              </div>
+              
+              <div class="col-lg-4 col-md-6 portfolio-thumbnail std-portal">
+                <a class="popup-img" href="images/portfolio/portal-mhs/pages.jpg">
+                  <img src="images/portfolio/portal-mhs/pages.jpg" alt="img">
+                </a>
+              </div>
+                          
+              <div class="col-lg-4 col-md-6 portfolio-thumbnail std-portal">
+                <a class="popup-img" href="images/portfolio/portal-mhs/pages1.jpg">
+                  <img src="images/portfolio/portal-mhs/pages1.jpg" alt="img">
+                </a>
+              </div>   
+              <!-- Student Portal App -->
+
+              <!-- Lecture Portal App -->                          
+              <div class="col-lg-4 col-md-6 portfolio-thumbnail lct-portal">
+                <a class="popup-img" href="images/portfolio/portal-dsn/desc.jpg">
+                  <img src="images/portfolio/portal-dsn/desc.jpg" alt="img">
+                </a>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-thumbnail lct-portal">
+                <a class="popup-img" href="images/portfolio/portal-dsn/pages.jpg">
+                  <img src="images/portfolio/portal-dsn/pages.jpg" alt="img">
+                </a>
+              </div> 
+
+              <div class="col-lg-4 col-md-6 portfolio-thumbnail lct-portal">
+                <a class="popup-img" href="images/portfolio/portal-dsn/pages1.jpg">
+                  <img src="images/portfolio/portal-dsn/pages1.jpg" alt="img">
+                </a>
+              </div> 
+              <!-- Lecture Portal App -->
+
             </div>
 
           </div>
