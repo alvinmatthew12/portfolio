@@ -1213,6 +1213,35 @@ section {
   list-style: disc;
 }
 
+.process-list .badge {
+  font-size: 75%;
+  padding: 0.35em 0.71em;
+  font-weight: 600;
+}
+
+.process-list h6 {
+  margin-bottom: 0px;
+}
+
+#fullscreen {
+  display: inline;
+  font-size: 15px;
+  color: #b7bcc0;
+  cursor: pointer;
+}
+
+#fullscreen:hover {
+  color: #45505b;
+}
+
+#breadcrumb {
+  display: none;
+  font-size: 15px;
+  color: #b7bcc0;
+  cursor: pointer;
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
