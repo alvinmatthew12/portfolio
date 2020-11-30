@@ -1224,7 +1224,6 @@ section {
 }
 
 #fullscreen {
-  display: inline;
   font-size: 15px;
   color: #b7bcc0;
   cursor: pointer;
@@ -1235,7 +1234,6 @@ section {
 }
 
 #breadcrumb {
-  display: none;
   font-size: 15px;
   color: #b7bcc0;
   cursor: pointer;

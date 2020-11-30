@@ -198,9 +198,13 @@
     items: 1
   });
 
-  if(($(".portfolio-details").width() > 1024 || $(".portfolio-details").width() < 450)) {
-    $("#fullscreen").css('display', 'none');
-    $("#breadcrumb").css('display', 'inline');
+  var path = window.location.search;
+  var page = path.substr(path.length - 3);
+  if(page != 'yes') {
+    $('#breadcrumb').hide();
+  } else {
+    $('#fullscreen').hide();
+    console.log(page)
   }
 
 })(jQuery);
